@@ -18,3 +18,29 @@ body {
 }
 
 /* Write all remaining styles here */
+h1, h2{
+    font-family: 'Baskerville', serif;
+}
+
+h2{
+    color: #74807c;
+}
+
+p {
+    color: #555;
+}
+
+h1 {
+    color: #9caba6;
+    font-size: 5em;
+    font-weight: normal;
+}
+
+img{
+    border-style: solid;
+    border-color: #9caba6;
+}
+
+img.title {
+    display: inline-block;
+}
