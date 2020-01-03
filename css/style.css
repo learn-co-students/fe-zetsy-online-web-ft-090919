@@ -1,20 +1,71 @@
-/*////////////// Fonts //////////////*/
-
-/* link the web font used for the level 1 heading here */
-
-/*////////// Global Styles //////////*/
-
-body {
-	background: #F3EBE9;
-	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+/* General Styling */
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
+.external-link {
+  text-decoration: none;
+  color: #1783bb;
+}
+
+body {
+  height: 100%;
+	background: #F3EBE9;
+	font-size: 100%;
+  font-family: 'Times New Roman', serif;
+}
+
+/* Headers */
+
+h1 {
+  font-family: 'Baskerville', serif;
+  font-size: 5em;
+  border-bottom: 1px solid #ccc;
+  margin: 0 0 5px;
+  padding-bottom: 12px;
+  color: #98ada6;
+}
+
+h2,
+h3 {
+  font-weight: bold;
+  font-size: 2em;
+  margin: 25px 0;
+  color: #6F7F7A;
+}
+
+/* Main */
+
 .wrapper {
-	width: 960px;
+	width: 1050px;
 	margin: 0 auto;
 	background: #fff;
 	padding: 0 45px 20px;
 }
 
-/* Write all remaining styles here */
+p {
+  color: #555;
+  margin: 20px 0;
+}
+
+/* Footer */
+
+footer p {
+  font-size: 0.8em;
+  text-align: right;
+}
+
+/* Images */
+
+#header-image {
+  border: 5px solid #98ada6;
+}
+
+.press-container img {
+  border: 5px solid #ccc;
+
+}
